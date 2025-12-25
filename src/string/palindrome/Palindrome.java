@@ -21,4 +21,11 @@ public class Palindrome {
         }
         return true;
     }
+
+    public boolean compareString(String s) {
+        String filtered = s.replaceAll("[^A-Za-z0-9]", "").toLowerCase();
+        String reversed = new StringBuilder(filtered).reverse().toString();
+
+        return filtered.equals(reversed);
+    }
 }
