@@ -1,4 +1,4 @@
-package string.reverse
+package chapter6_string.reverse
 
 fun reverseString(s: CharArray): String {
 //    var start = 0

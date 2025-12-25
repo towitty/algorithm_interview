@@ -1,4 +1,4 @@
-package string.reverse;
+package chapter6_string.reverse;
 
 public class ReverseString {
 

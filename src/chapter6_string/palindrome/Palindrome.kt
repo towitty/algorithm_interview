@@ -1,4 +1,4 @@
-package string.palindrome
+package chapter6_string.palindrome
 
 fun isPalindrome(s: String): Boolean {
     var start = 0
@@ -17,5 +17,5 @@ fun isPalindrome(s: String): Boolean {
             }
         }
     }
-    return true;
+    return true
 }

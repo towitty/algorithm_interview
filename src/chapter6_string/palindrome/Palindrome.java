@@ -1,4 +1,4 @@
-package string.palindrome;
+package chapter6_string.palindrome;
 
 public class Palindrome {
 

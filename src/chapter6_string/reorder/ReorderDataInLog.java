@@ -1,4 +1,4 @@
-package string.reorder;
+package chapter6_string.reorder;
 
 import java.util.ArrayList;
 

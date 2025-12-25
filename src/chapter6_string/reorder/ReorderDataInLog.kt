@@ -1,4 +1,4 @@
-package string.reorder
+package chapter6_string.reorder
 
 fun reorderLogFiles(logs: Array<String>): Array<String> {
     val digits = mutableListOf<String>()
