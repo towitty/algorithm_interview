@@ -1,5 +1,7 @@
 package algorithm;
 
+import chapter8_linked_list.palindrome_linked_list.PalindromeLinkedList.ListNode;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -119,4 +121,17 @@ public class JavaAlgorithm {
         }
         return arr;
     }
+
+    // single linked list reverse
+    public ListNode reverseNode(ListNode head) {
+        ListNode prev = null, node = head;
+        while (node != null) {
+            ListNode next = node.next;
+            node.next = prev;
+            prev = node;
+            node = next;
+        }
+        return prev;
+    }
+
 }
